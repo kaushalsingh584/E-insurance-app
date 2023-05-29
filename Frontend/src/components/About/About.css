@@ -1,0 +1,24 @@
+.abouthm{
+    min-height: 75vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 2%;
+    padding: 10px;
+    
+}
+.abouthm h1{
+    color: rgb(173, 2, 2);
+}
+.aboutpara p{
+    color: #ffffff;
+}
+.aboutpara{
+    background: rgba( 20, 20, 20, 0.95 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 5%;
+}

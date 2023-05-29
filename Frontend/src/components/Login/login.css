@@ -1,0 +1,85 @@
+.loginhm{
+    min-height: 90vh;
+    width: auto;
+    padding: 20px;
+    /* display: flex; */
+    
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba( 20, 20, 20, 0.9 );
+box-shadow: 0 8px 32px 0 rgba(173, 2, 2, 0.61);
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 5%;
+    color: #ffffff;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="password"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #333;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  input[type="text"]:hover,
+  input[type="password"]:hover{
+    background-color: rgb(173, 2, 2);
+    transition: all 0.3s ease;
+    color: #ffffff;
+  } 
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(173, 2, 2);
+    transition: all 0.3s ease;
+    color: #ffffff;
+  }
+  
+
+  button[disabled]:hover {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed;
+  }

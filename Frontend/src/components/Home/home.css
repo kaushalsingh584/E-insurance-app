@@ -1,0 +1,77 @@
+.homeflex{
+    min-height: 80vh;
+    width: auto;
+    padding: 20px;
+    /* display: flex; */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.63)),url(ihome.jpg) center center/cover no-repeat; */
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.logbut{
+    padding: 10px;
+    background-color: rgb(173, 2, 2);
+    color: #ffffff;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logbut:hover{
+    transform: scale(1.2);
+	transition: all 0.3s ease;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+.cardhm {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    overflow: hidden;
+    background: rgba(20, 20, 20, 0.95);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 5%;
+  }
+  
+  .cardhm img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .cardhmtext {
+    padding: 10px;
+  }
+  
+  .cardhmtext h1 {
+    /* font-size: 1.2rem; */
+    color: rgb(173, 2, 2);
+    margin: 2%;
+  }
+  
+  .cardhmtext p {
+    margin: 0;
+    color: #fff;
+    text-align: justify;
+
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .cardhm {
+      flex-direction: column;
+    }
+  
+    .cardhm img {
+      max-width: 100%;
+    }
+  }
